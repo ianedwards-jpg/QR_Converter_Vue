@@ -1,17 +1,17 @@
 <template>
 <div class="container">
-<h1>Hello World</h1>
+  <Header title="QR Converter" />
 </div>
  
 </template>
 
 <script>
-
+import Header from "./components/Header"
 
 export default {
   name: 'App',
   components: {
-    
+    Header
   }
 }
 </script>
@@ -27,7 +27,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 30px auto;
   overflow: auto;
   min-height: 500px;
